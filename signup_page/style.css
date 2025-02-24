@@ -1,0 +1,141 @@
+@media screen and (max-width:500px) {
+   .nav-page .rightsection a{
+        font-size: 12px;
+    }
+    .rightsection{
+        margin: auto;
+        margin-left: 10px;
+        gap: 0;
+    }
+    .nav-page{
+        display: block;
+        padding: 0;
+    }
+    .leftsection{
+        margin-right: 20px;
+        margin-left: -20px;
+    }
+    
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(front-page.jpeg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: brightness(0.5); */
+
+}
+*{
+    margin: 0;padding: 0;
+}
+.nav-page{
+    width: 70vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    padding: 12px;
+}.leftsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.rightsection a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.rightsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 21px;
+}
+.leftsection img{
+    border-radius: 30px;
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0, 0, 0.6);
+    display: flex;
+    
+    justify-content: center;
+    
+    
+    
+    filter: brightness(1);
+    /* background-color:red; */
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width:15rem;
+    background-color: transparent;
+    padding: 22px;
+    z-index: 4;
+    margin: auto;
+    
+}
+.button-a{
+    z-index: 4;
+    display: flex;
+    column-gap: 9px;
+    justify-content: space-between;
+}
+.bottom{
+    z-index: 4;
+    display: flex;
+}
+label{
+    color: white;
+}
+input{
+    height: 30px;
+    /* background-color: rgba(0,0, 0, 0.2); */
+    border: none;
+    color: black;
+    border-radius: 2px;
+    padding: 1px 4px;
+}
+input placeholder{
+    color: white;
+}
+button{
+    padding: 8px;
+    background-color: #FFD166;
+    border: none;
+    color:black;
+    height: 30px;
+}
+a{
+    color: white;
+}
+span{
+    color: white;
+    margin-right: 3px; 
+    font-size: 14px;
+}
+
+/* hover properties */
+.nav-page .rightsection a:hover{
+    transform: translateY(-2px);
+    transition: all 1s;
+}
